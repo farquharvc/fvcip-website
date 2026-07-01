@@ -23,7 +23,7 @@ export default function Services() {
 
   const serviceCategories = [
     {
-      title: "Speciality Services",
+      title: "Signature Services",
       description: "Bespoke corporate architecture for advanced institutional structures.",
       icon: <Network className="w-8 h-8 text-gold" />,
       items: [

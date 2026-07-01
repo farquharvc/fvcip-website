@@ -18,7 +18,7 @@ const translations: Record<string, string> = {
   "Contact Us": "联系我们",
   
   // Services Categories
-  "Speciality Services": "特色服务",
+  "Signature Services": "特色服务",
   "Corporate Advisory": "企业咨询",
   "Business Process Outsourcing": "业务流程外包",
   

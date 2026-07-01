@@ -8,31 +8,31 @@ export default function Team() {
   const teamMembers = [
     {
       name: "Jason Su",
-      role: "Managing Partner, Strategy",
+      role: "Director",
       linkedin: "https://www.linkedin.com/in/jason-su-wx/",
-      image: "https://media.licdn.com/dms/image/v2/C5603AQHgnFMrOGqqxw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516883005218?e=1784160000&v=beta&t=dLvsOCesW4vvMgc-HEIYbMKAALFrnLq88zHfgTHCfnw",
+      image: "/Jason.jpg",
       bio: "Jason oversees cross-border corporate restructuring and strategic deployment of Investment SPVs. With extensive experience in top-tier financial architecture, he ensures rigorous compliance and strategic foresight for our institutional partners across the APAC region."
     },
     {
       name: "Koh Zhee San",
       role: "Head of Corporate Secretary",
       linkedin: "https://www.linkedin.com/in/kon-zhee-san-6529631b6/",
-      image: "https://media.licdn.com/dms/image/v2/C5603AQGffHa1x0Csbg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1603117637638?e=1784160000&v=beta&t=bB6MZi4CTf-vEK5Yg4DOltU5O8xiDlgnECNBawBGVNU",
+      image: "/Koh_Zhee_San.jpg",
       bio: "Connie leads our VCC and Fund Administration division. Her expertise lies in optimizing operational workflows, rigorous NAV calculations, and managing complex regulatory reporting for multi-jurisdictional family offices and private equity funds."
     },
     {
       name: "Richard Tai",
-      role: "Director, Corporate Advisory",
+      role: "Director",
       linkedin: "https://www.linkedin.com/in/peroedy/",
-      image: "https://media.licdn.com/dms/image/v2/C4E03AQF4dTBGNiKZHA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516283626525?e=1784160000&v=beta&t=N7sZeVtkZOjdE0UrJd7ynAdmPR5RG5TumAIrry5yuGE",
+      image: "/Richard.jpg",
       bio: "Richard architects bespoke due diligence frameworks. His deep background in commercial and financial analytics allows him to navigate volatile market data, delivering secure, optimized, and objective M&A insights for our high-net-worth clientele."
     },
     {
       name: "Mervin Lee",
-      role: "Head of Business Process Outsourcing",
+      role: "Director",
       linkedin: "https://www.linkedin.com/in/mervinleezy/",
-      image: "https://media.licdn.com/dms/image/v2/C5603AQFDpb9USQNIhA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1614152087059?e=1784160000&v=beta&t=LRtSbE7K-7p732rbHa8z4Obb6WWLc07XS3ohosHyS5w",
-      bio: "Mervin directs our core BPO operations, encompassing corporate secretarial compliance, enterprise accounting, and state grant applications. He ensures that our clients' foundational corporate mechanics operate with flawless precision."
+      image: "/Mervin.jpg",
+      bio: "Mervin directs our core BPO operations, encompassing corporate secretarial compliance, enterprise accounting, and state grant applications. He has helped businesses receive more than $S4M in government grants throughout his career, ensuring that our clients' foundational corporate mechanics operate with flawless precision."
     }
   ];
 
@@ -53,7 +53,7 @@ export default function Team() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {teamMembers.map((member) => (
             <div key={member.name} className="bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col">
-              <div className="h-72 overflow-hidden relative">
+              <div className="aspect-[3/4] overflow-hidden relative bg-white">
                 <img 
                   src={member.image} 
                   alt={member.name} 

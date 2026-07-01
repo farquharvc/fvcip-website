@@ -10,7 +10,7 @@ export default function Navbar() {
   const { t, toggleLanguage } = useLanguage();
 
   const services = {
-    'Speciality Services': [
+    'Signature Services': [
       { name: 'VCC Corporate Secretary', id: 'vcc-corporate-secretary' },
       { name: 'Investment SPVs', id: 'investment-spvs' },
       { name: 'Fund Administration', id: 'fund-administration' },
